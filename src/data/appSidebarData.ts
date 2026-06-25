@@ -1,16 +1,22 @@
-import { GitCompare, Home, TestTube, Upload, Send, Settings2, SquareTerminal, Rainbow, Usb } from "lucide-react";
+import { Home, Settings2, Info, SquareTerminal, Hexagon } from "lucide-react";
 
 export const appSidebarData = {
   user: {
-    name: "shadcn",
-    email: "m@example.com",
-    avatar: "/avatars/shadcn.jpg"
+    name: "castor12m",
+    email: "engineer",
+    avatar: ""
   },
   basic: [
     {
       title: "Home",
       url: "/home",
       icon: Home
+    },
+    {
+      title: "Patches",
+      url: "/patches",
+      icon: Hexagon,
+      badge: "11"
     }
   ],
   navMain: [
@@ -18,7 +24,7 @@ export const appSidebarData = {
       title: "Playground",
       url: "/playground",
       icon: SquareTerminal,
-      isActive: true,
+      isActive: false,
       items: []
     }
   ],
@@ -31,7 +37,7 @@ export const appSidebarData = {
     {
       title: "About",
       url: "/about",
-      icon: Send
+      icon: Info
     }
   ]
 };

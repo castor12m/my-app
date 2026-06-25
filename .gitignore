@@ -24,3 +24,8 @@ dist-ssr
 *.sw?
 
 .env
+
+# Development artifacts
+docs/
+.claude/
+.omc/
